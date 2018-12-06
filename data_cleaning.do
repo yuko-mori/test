@@ -18,7 +18,7 @@ replace st_nm=State_name_2001 if st_nm==.;
 gen ac_no=AC_no_2001;
 sort st_nm ac_no;
 
-save  "C:\Users\ymori\Dropbox\reserach\habit_formation\data\2004_match.dta",replace;
+save  "D:\Users\ymori\Dropbox\reserach\habit_formation\data\2004_match.dta",replace;
 
 use "C:\Users\ymori\Dropbox\reserach\habit_formation\data\ac_pc_turnout04.dta",clear;
 sort  st_nm ac_no;
